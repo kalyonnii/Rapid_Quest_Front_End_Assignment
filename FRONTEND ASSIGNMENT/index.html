@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bootstrap Sidebar</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
+    />
+   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-.5 m-3 text-center">
+          <div class="d-flex" id="wrapper">
+            <!-- Sidebar -->
+            <div class="desktop-view">
+              <div class="bg-White text-grey" id="sidebar-wrapper">
+                <br />
+                <div class="sidebar-heading">
+                  <img src="./assets/images/fly.png" alt="fly" />
+                </div>
+                <br />
+
+                <div class="list-group">
+                  <a href="#" class="bg-White text-grey"
+                    ><i class="fas fa-search"></i>
+                  </a>
+                  <br />
+                  <br />
+                  <a href="#" class="bg-White text-grey"
+                    ><i class="fas fa-home"></i>
+                  </a>
+                  <br />
+                  <a href="#" class="bg-White text-grey"
+                    ><i class="fa fa-calendar" aria-hidden="true"></i
+                  ></a>
+                  <br />
+                  <a href="#" class="bg-White text-grey"
+                    ><i class="fa fa-list-alt" aria-hidden="true"></i>
+                  </a>
+                  <br />
+                  <a href="#" class="bg-White text-grey"
+                    ><i class="fas fa-user"></i>
+                  </a>
+                  <br />
+                  <br />
+                  <br />
+                  <br /><br />
+                  <br /><br />
+                  <br /><br />
+                  <br />
+                  <a href="#" class="bg-White text-grey"
+                    ><i class="fa fa-bell" aria-hidden="true"></i
+                  ></a>
+                  <br />
+                  <a href="#" class="bg-White text-grey"
+                    ><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-view">
+              <div class="bottom-navbar">
+                <a href="#" class="bg-White text-grey"
+                  ><i class="fas fa-home"></i>
+                </a>
+                <a href="#" class="bg-White text-grey"
+                  ><i class="fa fa-calendar" aria-hidden="true"></i
+                ></a>
+                <a href="#" class="bg-White text-grey"
+                  ><i class="fa fa-list-alt" aria-hidden="true"></i>
+                </a>
+
+                <a href="#" class="bg-White text-grey"
+                  ><i class="fas fa-user"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-White text-grey transition-all duration-300 ease-in-out"
+                  ><i class="fas fa-search"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="first">
+            <div class="greet">
+              <img
+                src="./assets/images/profile.png"
+                alt="Your Image"
+                class="profile"
+              />
+              <div class="text-container">
+                <h2 class="heading">Hi Bunny,</h2>
+                <p class="small-text">Welcome back!</p>
+              </div>
+            </div>
+            <div class="today mt-2">
+              <p class="today_head">Today</p>
+              <div class="today_balance">
+                <p class="today_b">$19,892</p>
+                <p class="today_name">Account Balance</p>
+              </div>
+              <div class="">
+                <div class="yearly-balance">
+                  <p class="year_b">$4,000</p>
+                  <p class="year_name">Year-to-Date Contribution</p>
+                </div>
+                <div class="total-balance">
+                  <p class="total_b">$1,892</p>
+                  <p class="total_name">Total Interest</p>
+                </div>
+              </div>
+              <div class="btn-sub">
+                <button class="btn btn-primary">
+                  <p class="flex">
+                    I want to
+                    <span>
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+            <div class="profile-transaction mt-3">
+              <p class="head_trans">Recent Transactions</p>
+              <div class="today_trans">
+                <p class="date">2020-08-07</p>
+                <p class="text"><b>Withdrawal Transfer to Bank-XXX11</b></p>
+                <hr />
+              </div>
+              <div class="today_trans">
+                <p class="date">2020-07-21</p>
+                <p class="text"><b>Withdrawal Transfer to Bank-XXX11</b></p>
+                <hr />
+              </div>
+
+              <div class="today_trans">
+                <p class="date">2020-07-16</p>
+                <p class="text"><b>Withdrawal Transfer to Bank-XXX11</b></p>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="middle">
+            <div class="year-details">
+              <p class="small_head">Retirement Income</p>
+              <p class="big_head">Starting Year 2056</p>
+              <div class="d-flex">
+                <div class="data1 data_1">
+                  <div class="year-money">$300,000</div>
+                  <p class="year_text">My Goal</p>
+                  <hr class="blue-line" />
+                </div>
+                <div class="data1 data_2">
+                  <div class="year-money">59%</div>
+                  <p class="year_text">Goal Achieved</p>
+                  <hr class="blue-line" />
+                </div>
+                <div class="data1 data_3">
+                  <div class="year-money">$300</div>
+                  <p class="year_text">Est. Monthly Income</p>
+                  <hr class="blue-line" />
+                </div>
+              </div>
+            </div>
+            <div class="contribution">
+              <div class="contri_head mb-3">Contributions Overtime</div>
+              <canvas id="myChart"></canvas>
+            </div>
+            <div class="compare mt-4">
+              <div class="compare_head">How do I compare my peers?</div>
+              <p class="compare_text">
+                These numbers represent current goal achievement
+              </p>
+              <div class="flex compare_content">
+                <div class="compare_data">
+                  <div class="age">
+                    <b>Age:</b> Under
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    <hr width="150" />
+                  </div>
+                  <div class="salary">
+                    <b>Salary:</b> K 20 -K 30
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    <hr width="150" />
+                  </div>
+                  <div class="gender">
+                    <b>Gender:</b> male
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    <hr width="150" />
+                  </div>
+                </div>
+                <div class="circle_data">
+                  <div class="flex">
+                    <div>
+                      <canvas id="chart1" width="100" height="100"></canvas>
+                      <p class="circle_avg">Average</p>
+                    </div>
+                    <div>
+                      <canvas id="chart2" width="100" height="100"></canvas>
+                      <p class="circle_top">Top</p>
+                    </div>
+                    <div>
+                      <canvas id="chart3" width="100" height="100"></canvas>
+                      <p class="circle_me">Me</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="last">
+            <div class="head">Retirement Strategy</div>
+            <div class="slider1 flex">
+              <p class="text-sm">Employee contributions</p>
+              <div class="flex items-center">
+                <input
+                  id="default-range"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="1"
+                  class="w-full h-1 bg-indigo-600 rounded-lg appearance-none cursor-pointer"
+                  value="35"
+                />
+                <span
+                  class="ml-4 p-1 bg-gray-200 rounded-md shadow-sm text-indigo-500 font-semibold"
+                  >35</span
+                >
+              </div>
+            </div>
+
+            <div class="slider2 flex flex-col pb-4 border-b border-gray-300">
+              <p class="text-sm">Retirement Age</p>
+              <div class="flex items-center">
+                <input
+                  id="default-range"
+                  type="range"
+                  min="25"
+                  max="70"
+                  step="1"
+                  class="w-full h-1 bg-indigo-600 rounded-lg appearance-none cursor-pointer"
+                  value="60"
+                />
+                <span
+                  class="ml-4 p-1 bg-gray-200 rounded-md shadow-sm text-indigo-500 font-semibold"
+                  >60</span
+                >
+              </div>
+            </div>
+            <hr />
+
+            <div class="mt-4 w-full mx-auto flex flex-col gap-2">
+              <div class="slider1">
+                <p class="text-sm">
+                  Employee Contribution &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.4%
+                </p>
+              </div>
+              <div class="slider1 flex justify-between">
+                <p class="text-sm">
+                  Interest
+                  Rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  5%
+                </p>
+              </div>
+              <div class="mx-auto">
+                <div class="relative min-w-full sm:w-auto">
+                  <button
+                    class=" update_btn bg-indigo-600 flex items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-medium" 
+                  >
+                    <p class="text-white text-center mt-3 w-30 justify-center">Update</p>
+                  </button>
+                </div>
+              </div>
+              <span
+                class="text-xs text-indigo-600 font-medium text-center flex gap-1 items-center justify-center cursor-pointer"
+                >View Help &amp; Docs
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  height="20"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                  ></path>
+                </svg>
+              </span>
+            </div>
+            <div class="border_last">
+              <div
+                class="px-4 mt-5 flex flex-col justify-center gap-2 border-indigo-600"
+              >
+                <p class="text-sm">
+                  Are you considering a
+                  <span class="text-gray-800 font-semibold"
+                    >Housing Advance?</span
+                  >
+                </p>
+                <p class="text-xs text-gray-400">
+                  Limited time reduced interest
+                </p>
+                <span
+                  class="text-xs text-indigo-600 font-medium flex gap-1 items-center justify-center cursor-pointer"
+                  >Learn More
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="20"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="icon1 " >
+      <i class="fa fa-bell icon" aria-hidden="true"></i
+        >
+    </div>
+    <!-- /#page-content-wrapper -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </body>
+</html>
